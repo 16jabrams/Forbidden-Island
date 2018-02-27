@@ -976,17 +976,6 @@ class ForbiddenIslandExamples {
     return isHighest;
   }
 
-  /*
-   * // only works when the island size is 4 boolean
-   * 
-   * testCreateHeights(Tester t) { this.initDiamond(); return
-   * t.checkExpect(diamond.heights, expectedh); }
-   * 
-   * boolean testCreateCells(Tester t) { this.initDiamond(); return
-   * t.checkExpect(diamond.cells, expectedc); }
-   *
-   */
-
   // runs the game
   void testBigBang(Tester t) {
     this.initTerrain();
